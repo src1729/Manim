@@ -48,7 +48,7 @@ class Linee(Scene):
       self.wait(3)
       self.remove(t1,t2)
       t1=Tex("Therefore we can rotate and join ",color=GREEN).scale(0.6).shift(UP*0.3,LEFT*0.1)
-      t2=Tex("Figues 1 and 2 by the common side 'ab'",color=GREEN).scale(0.6).shift(LEFT*0.1)
+      t2=Tex("Figures 1 and 2 by the common side 'ab'",color=GREEN).scale(0.6).shift(LEFT*0.1)
       self.play(Write(t1))
       self.play(Write(t2))
       self.wait(3)
